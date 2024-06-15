@@ -1,0 +1,39 @@
+.box {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* float: left; */
+}
+
+.box1 {
+    background-color: aqua;
+    padding: 20px 10px 5px 40px;
+}
+.box2 {
+    background-color: chartreuse;
+    padding: 5px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-color: black;
+}
+
+.box3 {
+    background-color: coral;
+    border: 10px solid blue;
+    margin-left: 20px;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    padding: 10px;
+    border: solid #333;
+
+}

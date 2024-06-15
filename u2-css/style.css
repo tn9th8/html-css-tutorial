@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+#first-heading {
+    color: green;
+}
+
+.second-heading {
+    color: chocolate;
+}
+
+* {
+    color: olive;
+}
+
+html {
+    color: brown;
+}
+

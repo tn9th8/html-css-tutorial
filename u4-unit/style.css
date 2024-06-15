@@ -1,0 +1,13 @@
+html {
+    font-size: 100%;
+}
+
+.box {
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+h1 {
+    font-size: 1rem;
+}
