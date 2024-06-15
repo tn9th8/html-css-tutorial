@@ -30,10 +30,10 @@
 }
 
 .box4 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: blueviolet;
-    padding: 10px;
-    border: solid #333;
-
+    padding: 20px;
+    border: 10px solid #333;
+    box-sizing: border-box;
 }
