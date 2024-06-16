@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        h1:hover {
+            color: aqua;
+        }
+
+        li:first-child {
+            color: red;
+        }
+
+        li:last-child {
+            margin-bottom: 80px;
+        }
+
+        .box {
+            width: 100%;
+            height: 200px;
+            background: rgb(189, 27, 192);
+        }
+
+        .box:active {
+            background: rgb(241, 219, 95);
+        }
+
+        .box::before {
+            content: "Hello";
+            color: red;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+        }
+
+        .box::after {
+            content: "Bye";
+            color: red;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+        }
+
+        .pseudo-classes::first-letter {
+            font-size: 50px;
+            color: rgb(39, 210, 230);
+        }
+
+        .pseudo-elements::selection {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box">
+            <p>abc</p>
+        </div>
+        <h1>:Hover </h1>
+    </div>
+    <div>
+        <h2 class="pseudo-classes">Pseudo classes: </h2>
+        <ol>
+            <li>:root</li>
+            <li>:hover: khi di chuột đến sẽ kích hoạt thuộc tính</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ol>
+    </div>
+    <div>
+        <h2 class="pseudo-elements">Pseudo elements: </h2>
+        <ul>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection</li>
+        </ul>
+    </div>
+    <div>
+
+    </div>
+</body>
+</html>
