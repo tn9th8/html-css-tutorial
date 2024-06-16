@@ -5,9 +5,9 @@ html, body {
 .box {
     width: 100%;
     height: 200px;
-    background-color: blueviolet;
     box-sizing: border-box;
     padding: 20px;
     border: 20px dashed #ccc;
+    background-color: blueviolet;
     background-clip: content-box;
 }
