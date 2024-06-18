@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+      h2 {
+        position: relative;
+        top: 100px;
+        left: 500px;
+      }
+
+      .box {
+        width: 100%;
+        height: 400px;
+        background: #333;
+        position: relative;
+      }
+
+      .child-box {
+        /* width: 50px;
+        height: 50px; */
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        right: 0;
+        left: 0;
+      }
+
+      .header {
+        /* width: 100%; */
+        height: 40px;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .margin-header {
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="header"></div>
+      <div class="margin-header"></div>
+    </div>
+    <div>
+      <h1>Position</h1>
+      <h2>A relative instance</h2>
+      <ol>
+        <li>
+          Relative
+          <p>lấy vị trí của chính nó làm góc tọa độ</p>
+          <p>=> it depends on itself</p>
+        </li>
+        <li>
+          Absolute
+          <p>lấy a parent tag có thuộc tính position để làm tọa độ</p>
+          <p>=> 1 object depends on another</p>
+        </li>
+
+        <li>
+          Fixed
+          <p>lấy khung trình duyệt để làm tọa độ, có tính chất cố định</p>
+          <p>=> it depends on the web browser</p>
+        </li>
+        <li>
+          Sticky
+          <p>=> should not use</p>
+        </li>
+      </ol>
+    </div>
+    <div>
+      <div class="box">
+        <div class="child-box"></div>
+      </div>
+    </div>
+  </body>
+</html>
